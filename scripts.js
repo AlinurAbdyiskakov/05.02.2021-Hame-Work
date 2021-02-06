@@ -58,6 +58,3 @@ let exampleHomeWork2 = [
     { type: "header", cells: ["Apple", "Bananas", "Grapes", "Lemon"] },
     { type: "row", cells: [10,  20, 30, 10] },
 ];
-let newArticle = document.createElement('article');
-newArticle.innerText = "table";
-newArticle.append('table');
