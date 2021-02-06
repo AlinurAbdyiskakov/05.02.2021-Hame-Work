@@ -2,7 +2,7 @@
 let header = document.querySelector('h1');
 let article = document.querySelector('article');
 let paragraphs = document.querySelectorAll('p');
-
+let table = document.querySelector('table');
 // console.log(header.innerText);
 // console.log(header.textContent);
 // console.log(article.innerHTML);
@@ -19,6 +19,9 @@ let paragraphs = document.querySelectorAll('p');
 let newParagraph = document.createElement('p');
 newParagraph.innerText = "This is a brand new paragraph added by JavaScript";
 article.append(newParagraph);
+let newTable = document.createElement('table');
+newTable.innerText = "<table><tr></tr></table>";
+article.append(newTable);
 // article.prepend(newParagraph);
 // article.after(newParagraph);
 // article.before(newParagraph);
